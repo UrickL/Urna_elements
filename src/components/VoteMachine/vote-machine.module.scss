@@ -1,0 +1,71 @@
+.machine {
+  position: relative;
+  width: 50rem;
+  height: 25rem;
+
+  background: #e3e3e3;
+  // border: 1px solid #e3e3e3;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 1rem;
+  z-index: 100;
+
+  .screen {
+    width: 28rem;
+    height: 17rem;
+    border: 2px solid #e0e0e0;
+  }
+  .interface {
+    width: 18rem;
+    height: 20rem;
+  }
+
+
+
+  // 3D Effect:
+  &::after { //top
+    position: absolute;
+    content: "";
+    top: -4rem;
+    left: 0;
+    width: 100%;
+    height: 4rem;
+
+    border-bottom: 1px solid #e3e3e3;
+
+    transform-origin: bottom;
+    transform: skewX(-60deg);
+
+    background: #ffffff;
+  }
+  &::before { //right
+
+    position: absolute;
+    content: "";
+    top: 0;
+    right: -7rem;
+    width: 7rem;
+    height: 100%;
+
+    transform-origin: left;
+    transform: skewY(-30deg);
+
+    background-color: #c6c6c6;
+  }
+
+  // Footer Design
+  footer {
+    position: absolute;
+    width: 50rem;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    
+    div {
+      width: 6px;
+      height: 1rem;
+      background-color: #111;
+    }
+  }
+}
