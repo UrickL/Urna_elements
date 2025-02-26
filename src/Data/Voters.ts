@@ -11,7 +11,7 @@ export function getVotersData() {
     {Id:  111, Nome: "Eleitor E"},
     {Id: 1212, Nome: "Eleitor F"},
     {Id: 1010, Nome: "Eleitor G"},
-	{Id: 1011, Nome: "Eleitor H"},
+    {Id: 1011, Nome: "Eleitor H"},
 	
   ]
 }
