@@ -1,5 +1,4 @@
 
-
 export function getVotersData() {
 
   return [
@@ -17,7 +16,7 @@ export function getVotersData() {
     {Id: 1010, Nome: "Eleitor G7"},
     {Id: 1011, Nome: "Eleitor H8"},
     {Id: 4525, Nome: "Eleitor P9"}, 
-    {Id: 6651, Nome: "Eleitor O0"}
+    {Id: 6651, Nome: "Eleitor O0"},
     {Id: 9530, Nome: "Eleitor G1"},  
     {Id: 7215, Nome: "Eleitor U2"},
 	{Id: 7739, Nome: "Eleitor V3"}, 
