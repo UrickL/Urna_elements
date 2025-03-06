@@ -3,7 +3,6 @@
 export function getVotingCategoriesData() {
 
   // Remember ID:0 = 'Null' > reserved vote id!
-
   return {
     LÍDER: {
       digits: 2,
@@ -14,8 +13,8 @@ export function getVotingCategoriesData() {
 		{Id: 44, Nome: "Breno Almeida", Partido: "GLORIOUS LIGHT", pictureUrl: "breno.jpeg"},
         {Id: 55, Nome: "Pedro Antônio", Partido: "GLORIOUS LIGHT", pictureUrl: "pedro.jpeg"},
         {Id: 66, Nome: "Juan Maracajá", Partido: "NATURAL GREEN", pictureUrl: "juan.jpeg"},
-		{Id: 77, Nome: "João Gabriel", Partido: "NATURAL GREEN", pictureUrl: "joao.jpeg"},
+	{Id: 77, Nome: "João Gabriel", Partido: "NATURAL GREEN", pictureUrl: "joao.jpeg"},
 		{Id: 88, Nome: "Sofia Alexandre", Partido: "RADIANT FIRE", pictureUrl: "sofia.jpeg"},
       ]
-}
-    
+    }
+  }
