@@ -1,10 +1,5 @@
 
 export function getVotersData() {
-
-  return [
-    
-
-export function getVotersData() {
   return [
     {Id: 1234, Nome: "Eleitor A1"},
     {Id: 5678, Nome: "Eleitor B2"},
